@@ -1,0 +1,22 @@
+.footer {
+    background-color:#271b1b;
+    color: white;
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Roboto';
+    font-weight: 980;
+  }
+  .span1{
+    letter-spacing: 3px;
+    font-weight: 980;
+  }
+  .span2{
+    letter-spacing: 3px;
+    font-weight: 980;
+    color:#ff3939;
+  }
+  .span3{
+    margin: 0px 10px;
+  }

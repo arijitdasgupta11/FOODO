@@ -1,0 +1,66 @@
+.contactComponent {
+ color:rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 800;
+    margin :0 auto;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .p{
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+  .contactContainerBg {
+    background-color: rgba(115, 112, 111, 0.719);
+  }
+  .icons span
+  {
+    margin: 0 5px;
+  }
+
+  
+.imgDownload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgDownload img {
+  width: 150px;
+}
+
+.imgFluid {
+  margin: 10px 15px;
+  height: 40px;
+  width: 40px;
+  border-radius: 12px;
+
+}
+
+.imgFluid1 {
+  margin: 10px 15px;
+  height: 40px;
+  width: 40px;
+  border-radius: 16px;
+}
+
+
+.links{
+  display: flex;
+}
+.Col
+{
+  text-align: center;
+  margin: 15px auto;
+}
+.Col1
+{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}

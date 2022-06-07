@@ -1,0 +1,117 @@
+.background {
+  /* background-image: url(); */
+  background: url("../public/assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: auto center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -1;
+  top: 0px;
+}
+
+.texture {
+  /* background-image: url("../public/assets/texture.png"); */
+  background-attachment: fixed;
+  height: 80vh;
+  background-repeat: no-repeat;
+}
+
+.containerTop {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin: 5px auto;
+  text-align: center;
+  height: 80vh;
+}
+
+/* Top Section  */
+.sectionTop {
+  min-width: 90vw;
+  min-height: 100vh;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sectionTopRight {
+  background-color: rgba(99, 252, 39, 0.377);
+  backdrop-filter: blur(10px);
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.sectionTopRight:hover {
+  background-color: rgba(84, 218, 75, 0.742);
+}
+
+
+.sectionTopRight h2 {
+  font-weight: 600;
+}
+
+.sectionTopRight h1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  letter-spacing: 12px;
+  text-align: center;
+  margin: 10px auto;
+  color: brown;
+}
+
+.sectionTopRight h6 {
+  font-weight: 700;
+  color: brown;
+  letter-spacing:3px;
+  text-align: center;
+  margin: 10px auto;
+
+
+}
+
+.sectionTopRight p {
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+
+}
+
+.btnCustom {
+  background-color: rgb(255, 78, 47);
+  color: white;
+}
+
+.btnCustom:hover {
+  background-color: rgb(252, 105, 79);
+}
+
+.plateImgContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: -80px;
+  margin-bottom: 30px;
+}
+
+.plateImg {
+  width: 5.25rem;
+  /* position: absolute;
+    top:50px; */
+}
+
+
+.imgFluid1 {
+  height: 70vh;
+
+}
+
+@media only screen and (max-width: 900px) {
+  .texture {
+    background-image: url("../public/assets/texture2.png");
+    background-attachment: fixed;
+  }
+}
